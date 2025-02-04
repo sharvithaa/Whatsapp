@@ -1,0 +1,49 @@
+.bggreen{
+    background-color: rgba(0,150,136,1);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+body
+{
+    background-color: rgba(223,223,223,1);
+    
+}
+.bggrey
+{
+    background-color: rgba(255,255,255,1);
+    height: 90vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    padding-top: 20px; 
+    transform: translate(0,+40%);
+    /* top: 50%;
+    left: 50%;
+    right: 50%; */
+   
+}
+.light-grey{
+    background-color: rgba(238,238,238,1);
+    height: 10vh;
+    width: 95vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.chat-list{
+    background-color: antiquewhite;
+    width: 70vh;
+    height: 80vh;
+}
