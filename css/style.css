@@ -20,8 +20,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; 
-    padding-top: 20px; 
+    margin-top: 2rem; 
+    padding-top: 2rem; 
     transform: translate(0,+40%);
     /* top: 50%;
     left: 50%;
@@ -38,12 +38,126 @@ body
 }
 
 .logo{
-    margin: 10px;
-    padding-left: 10px;
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    display:inline-block;
+    align-items: center;
 }
 
+.msg{
+    padding-left: 18rem;
+}
+.chat-profile{
+    display: inline-block;
+    margin-left:0.5rem;
+}
+
+.walpaper{
+    background-image: url("../assets/walpaper.jpg");
+    width: 95vw;
+    height: 90vh;
+    position: relative;
+}
+.search{
+    padding-top : 1rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.search p{
+    margin: 0;
+    padding-left: 2rem;
+    align-items: center;
+    color: rgb(167, 163, 163);
+}
 .chat-list{
-    background-color: antiquewhite;
+    background-color: white;
     width: 70vh;
-    height: 80vh;
+    height: 90vh;
+    float: left;
+}
+
+.profile
+{
+    margin: 1rem;
+    padding-left: 0.5rem;
+    display: flex;
+   
+}
+
+.profile h4{
+    margin:0;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+}
+
+.profile p{
+    margin: 0;
+    margin-top: 1.5rem;
+    padding-right: 10rem;
+    
+}
+
+.profile h6{
+    float: right;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-left: 14rem;
+    color: rgb(167, 163, 163)
+}
+
+.chat{
+    display: flex;
+    justify-content: flex-end; /* Moves "Today" to the right */
+    padding-right: 1.5rem; /* Adds some spacing from the right */
+}
+
+.chat h4{
+    position: absolute;
+    top: 50%; /* Moves it to the middle */
+    left: 50%; /* Moves it to the center */
+    transform: translate(+250%, +100%); /* Ensures perfect centering */
+    text-align: center; /* Centers text inside */
+    background-color: rgba(225, 242, 251, 1); /* Optional: Light background */
+    padding: 10px 20px; /* Adds space around text */
+    border-radius: 5px;
+    color: rgba(151, 168, 175,1);
+}
+
+.chat p{
+    position: absolute;
+    top: 50%; /* Moves it to the middle */
+    left: 50%; /* Moves it to the center */
+    transform: translate(+700%, +200%); /* Ensures perfect centering */
+    text-align: center; /* Centers text inside */
+    background-color: rgba(220, 248, 198, 1); /* Optional: Light background */
+    padding: 10px 20px; /* Adds space around text */
+    border-radius: 5px;
+    color: rgba(117, 129, 107,1);
+}
+
+.chatarea{
+    position: absolute;
+    bottom: 0; /* Places it at the bottom */
+    left: 0; /* Aligns to the left */
+    width: 65%; /* Full width */
+    height: 8vh; /* Adjust height */
+    background-color: rgba(240, 238, 236, 1);
+    display: flex;
+    align-items: center;
+    margin-left: 26.4rem;
+}
+
+.chatarea img{
+    position: absolute;
+    padding-left: 1rem;
+}
+
+.textarea{    
+    background-color: white;
+    width: 85%;
+    height: 6vh;
+    border-radius: 4px;
+    margin-left: 3rem;
 }
