@@ -7,58 +7,63 @@
     <body>
         <div class="bggreen">
             <div class="bggrey">
-                <div class="light-grey">
-                    <article class="logo">
-                        <img src="assets/circle.png" height="40vh" width="40vw" >          
+                <div class="sidebar">
+                    <header>
+                        <img src="assets/OIP (2).jpg" height="50vh" width="50vw" class="logo" >         
                         <img src="assets/message.png" height="40vh" width="40vw " class="msg">
                         <img src="assets/menu.png" class="menu">
-                    </article>
+                    </header>
 
-                    <article class="chat-profile">
-                        <img src="assets/circle.png" height="40vh" width="40vw" > 
-                    </article>
-
-                    <article class="walpaper">
-                       <div class="chat-list">
-                        
-                            <div class="search">
+                    <div class="search">
                             <img src="assets/search (1).png" height="20vh" width="20vw">
-                            <p>Search or start a new chat</p>                         
+                            <input type="text" placeholder="Search or start a new chat">                        
                             </div>
-                            <hr>
 
-                            <div class="profile">
-                            <img src="assets/circle.png" height="50vh" width="50vw">
-                            <h4>Swati </h4>
-                            <h6>9.37pm</h6>
-                            <p><span style="color: rgba(111,209,160,1);"><b>typing...</b></span></p>
-                            </div>
-                            <hr>
-
-                            <div class="profile">
-                            <img src="assets/circle.png" height="50vh" width="50vw">
-                            <h4>Priya</h4>
-                            <h6>Yesterday</h6>
-                            <p><span style="color: rgb(167, 163, 163)">See in cupborad</span></p>
+                    <div class="chat-list">
+                        <div class="chat-item" data-name="Swati" data-image="assets/OIP.jpg">
+                            <img src="assets/OIP.jpg"> 
+                            <div class="chat-info">
+                                <h4>Swati </h4>
+                                <span class="time">9.37pm</span>
+                                <p class="typing">typing...</p>
                             </div>
                         </div>
+
+                        <div class="chat-item" data-name="Priya😂" data-image="assets/OIP (1).jpg">
+                            <img src="assets/OIP (1).jpg"> 
+                            <div class="chat-info">
+                                <h4>Priya😂 </h4>
+                                <span class="time">9.37pm</span>
+                                <p>See in cupboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-window">
+                    <header class="chat-header">
+                        <img src="assets/OIP.jpg" class="chat-profile-pic">
+                        <h4 class="chat-name">Swati</h4>
+                    </header>
+                     
+                    <div class="chat-body">
+                        <div class="message-date">Today</div>
+                        <div class="message received">Hello, how are you?</div>  <!-- Received message (white background) -->
+                        <div class="message sent">I'm good, thanks!</div>        
+                    </div>        
                     
-                        <div class="chat">
-                            <h4>Today</h4>
-                            <p>Hi!!!</p>
-                        </div>
 
-                        <div class="chatarea">
-                            <img src="assets/smile.png" height="25vh">
-                            <div class="textarea"></div>
-                            <img src="assets/mic.png" height="20vh" style="padding-left: 46rem;">
-                        </div>
-                        
-                    </article>
+                    <div class="chat-footer">
+                        <img src="assets/smile.png" class="emoji-icon">
+                        <input type="text" class="message-input" placeholder="Type a message">
+                        <img src="assets/mic.png" class="mic-icon">
+                    </div>
                 </div>
 
             </div>
         </div>
-        
+        <script src="script.js"></script>
     </body>
 </html>
+
+
